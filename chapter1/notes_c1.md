@@ -27,3 +27,45 @@ eg: make a sandwich is intutive for humans, but computer needs explicit instruct
 ## 1.3 algorithms
 
 step by step method of solving problems
+
+different algorithms vary in efficiency
+
+> Algorithm efficiency: A measurement that determines how efficient one algorithm is compared with another.
+
+## 1.4 summary
+
+tldr of chapter. 
+
+critical to remember that independent of prog. language, w/o a good algorithm, solutions will be ineffective. 
+
+
+### key concepts: 
+
+- cs is about problem solving
+- computer is never wrong, it is merely implementing your directions
+
+
+### exercise soln: 
+
+#### 1. 
+a. **2 
+
+b. **
+
+#### 2. 
+a. ((1+n)/2.0)*n
+
+b. I think that (a.) satisfies the criteria. 
+
+#### 3. 
+- first element = last element
+- second element = second-last element
+- repeat till single middle element (for odd) or middle two elements equal to each other (for even)
+
+#### 4. 
+
+ TO DO. NOT SURE ATM.
+
+#### 5. 
+
+#### 6. 
