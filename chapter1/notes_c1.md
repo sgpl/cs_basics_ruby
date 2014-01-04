@@ -67,5 +67,20 @@ b. I think that (a.) satisfies the criteria.
  TO DO. NOT SURE ATM.
 
 #### 5. 
+a. The purpose of this algorithm is to figure out the amount of change due to the customer given the cost of a product and the money paid. 
+
+b. gist: 
+- 'C', the change due = money paid - cost
+- keep giving the customer $1 till C >= 1
+- keep giving the customer $0.25 till C >= 0.25
+- keep giving the customer $0.10 till C >= 0.10
+- keep giving the customer $0.05 till C >= 0.05
+- keep giving the customer $0.01 till C >= 0.01
+- the program then ends. 
+
+ 
 
 #### 6. 
+
+Engineer's algo. doesn't work because it creates a loop for the '1' weighted cables. 
+
