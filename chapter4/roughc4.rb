@@ -13,15 +13,15 @@
 # _recursion 14
 
 
-# get input from user
-input = gets.chomp.to_i
-while input >= 0
-	puts "input is currently: #{input}"
-	if input > 10 and input <= 20
-		input = input - 6
-	elsif input > 20 and input <= 30
-		input -= 12
-	else
-		input -= 1
-	end
-end
+# # get input from user
+# input = gets.chomp.to_i
+# while input >= 0
+# 	puts "input is currently: #{input}"
+# 	if input > 10 and input <= 20
+# 		input = input - 6
+# 	elsif input > 20 and input <= 30
+# 		input -= 12
+# 	else
+# 		input -= 1
+# 	end
+# end
