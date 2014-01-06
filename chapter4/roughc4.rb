@@ -60,23 +60,99 @@
 # end
 
 
-# 3. 
-print "point 1 (enter value for x1, then press enter, then enter value for y1): "
-x1 = gets.chomp.to_f
-y1 = gets.chomp.to_f
+# # 3. 
+# print "point 1 (enter value for x1, then press enter, then enter value for y1): "
+# x1 = gets.chomp.to_f
+# y1 = gets.chomp.to_f
 
-print "point 2 (enter value for x2, then press enter, then enter value for y2): "
-x2 = gets.chomp.to_f
-y2 = gets.chomp.to_f
+# print "point 2 (enter value for x2, then press enter, then enter value for y2): "
+# x2 = gets.chomp.to_f
+# y2 = gets.chomp.to_f
 
-puts "Point 1: ", x1, y1
-puts "Point 2: ", x2, y2
-slope = ((y2-y1)/(x2-x1)) if (x1!=x2)
-puts slope
-# if slope == 
-# 	puts ""
-# elsif slope == 
-# 	puts ""
+# puts "Point 1: ", x1, y1
+# puts "Point 2: ", x2, y2
+
+# slope = ((y2-y1)/(x2-x1)) if (x1!=x2)
+
+# if x1 == x2
+# 	puts "line is vertical"
+# elsif y1 == y2
+# 	puts "line is horizontal"
 # else
-# 	puts ""	
+# 	puts "line has a slope of #{slope}"
+# 	puts "slope is positive" if slope > 0
+# 	puts "slope is negative" if slope < 0	
 # end
+		
+# # if slope == 
+# # 	puts ""
+# # elsif slope == 
+# # 	puts ""
+# # else
+# # 	puts ""	
+# # end
+
+
+# 4. 
+# will attempt later
+
+# #5. 
+# print "Enter a value for 'n' : "
+# n = gets.chomp.to_i
+# fxn = 0 
+# if n == 0
+# 	fxn = 1
+# else
+# 	fxn = 0
+# end
+
+# puts "d[n] = #{fxn}" 
+
+
+# 6. 
+print "Enter a value for x: "
+x = gets.chomp.to_f 
+print "Enter a value for y: "
+y = gets.chomp.to_f 
+print "Enter a value for z: "
+z = gets.chomp.to_f
+puts "x is #{x}, y is #{y}, z is #{z}"
+
+
+# #hacky way # abandoned
+# _output = 0 if (x > 0 and y > 0 and z > 0)
+# _output = 1 if (x )
+# _output = 2
+# _output = 3
+# puts "Output is #{_output}"
+
+if x > 0 
+	if y > 0
+		if z > 0
+			puts "output 3"
+		else
+			puts "output 2"
+		end
+	else
+		if z > 0
+			puts "output 2"
+		else
+			puts "output 1"
+		end
+	end
+else
+	if y > 0 
+		if z > 0
+			puts "output 2"
+		else
+			puts "output 1"
+		end
+	else
+		if z > 0
+			puts "output 1"
+		else
+			puts "output 0"
+		end
+	end
+end
+©
