@@ -155,4 +155,3 @@ else
 		end
 	end
 end
-©
