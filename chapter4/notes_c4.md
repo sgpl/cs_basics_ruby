@@ -44,3 +44,53 @@ end
 puts "Ticket cost: " + cost.to_s
 
 ## some notes on debugging
+
+
+
+## exercises: 
+
+1. 
+----------------------------------------
+#compare.rb
+print "give me an integer: "
+input = gets.chomp.to_i
+if input%2 == 0
+	puts "even"
+else
+	puts "odd"
+end
+----------------------------------------
+
+
+2.
+a. 
+----------------------------------------
+# compare_ a
+print "give me an integer bw 5 and 10: "
+input = gets.chomp.to_i
+if input >= 5 and input <= 10
+	puts "correct"
+else
+	puts "incorrect"
+end
+----------------------------------------
+
+
+b. 
+----------------------------------------
+# compare_ b
+print "give me an integer bw 5 and 10: "
+input = gets.chomp.to_i
+case 
+when input < 5
+	puts "below range"
+when ((input >=5) and (input <= 10))
+	puts "in range"
+else
+	puts "above range"
+end
+----------------------------------------
+
+
+
+3. 
