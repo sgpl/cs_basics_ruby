@@ -11,7 +11,7 @@
 # end
 
 
-i = 100
+i = 1
 while (i <= 100)
 	prime_flag = true
 	j = 2
