@@ -12,3 +12,7 @@
 - array with one dimension or one index is a one-dimensional array
 
 
+- array_name[index] to access elements
+- array.size
+- array.size returns number of elements, not the highest indexed element. 
+- last element is at arr.size - 1
