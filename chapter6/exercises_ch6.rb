@@ -145,10 +145,34 @@
 
 # 6. 
 
-eon = 34
-tof = 59
-wob = 20 
-af = 5
-tow = 20
+# 6. The three witches in Hamlet can brew any potion provided 
+# they have the right ingredients. Suppose that five ingredients 
+# are necessary in making a health potion: 
 
-puts (tof/4 + tow/7 + af/2 )
+# eye of newt (eon), 
+# toe of frog (tof), 
+# wool of bat (wob), 
+# adder’s fork (af), and 
+# tooth of wolf (tow). 
+
+# Four reactions can occur between these ingredients:
+
+# 4 eon + 2 wob = 3 af + 4 tow
+# 3 tow + 1 tof = 2 eon
+# 1 wob + 2 af = 1 tof
+# 4 tof + 7 tow + 2 af = 1 health potion
+
+# Assuming you can control the order of reactions, write a program that 
+# can calculate the maximum number of health potions one can brew with a 
+# given amount of ingredients. Here is example output:
+
+# If I have 34 eon, 59 tof, 20 wob, 5 af, and 20 tow, I can make seven health potions.
+
+
+# eon = 34
+# tof = 59
+# wob = 20 
+# af = 5
+# tow = 20
+
+# puts (tof/4 + tow/7 + af/2 )
