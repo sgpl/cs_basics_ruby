@@ -16,3 +16,10 @@
 - array.size
 - array.size returns number of elements, not the highest indexed element. 
 - last element is at arr.size - 1
+
+
+### multi-dimensional array 
+- arrays that have more than one dimension
+- ruby doesn't have builtin support for multi-dimensional arrays
+- workaround = array inside an array. 
+- 
