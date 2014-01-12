@@ -22,3 +22,8 @@ For example, consider the following list of numbers as input: 5, 3, 7, 5, 2, 9. 
 3. repeat step 2 for an additional n-2 times for the remaining n-1 numbers in the list. (After n-1 iterations, the nth element, by definition, is the largest and is in the correct location.)
 
 
+### formal definition: insertion sort algorithm. 
+adding another deck of cards to pre-arranged deck of cards. start with one card, and place it in the right order. will always have sorted deck of cards. 
+Step 1: Consider only the first element, and thus, our list is sorted.
+Step 2: Consider the next element; insert that element into the proper position in the already-sorted list.
+Step 3: Repeat this process of adding one new number for all n numbers.
