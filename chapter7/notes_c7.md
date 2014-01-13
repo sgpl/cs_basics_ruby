@@ -21,6 +21,9 @@ For example, consider the following list of numbers as input: 5, 3, 7, 5, 2, 9. 
 2. find smallest element in the yet unprocessed list; swap it with the element that is in the first position of the unprocessed list starting with the second element. 
 3. repeat step 2 for an additional n-2 times for the remaining n-1 numbers in the list. (After n-1 iterations, the nth element, by definition, is the largest and is in the correct location.)
 
+###> how selection sort works: 
+via animation: 
+- iterates over the entire list, with a variable pointing to the smallest element. this updates as we iterate along. so if index 2 had the number 3 which was the lowest at the point, the variable would keep track of it, but if at a higher index, say 7 we come across 1, the variable would keep track of 1. once the iteration is done, 1 would be at index 0 (if it is the first iteration), and the old item at zero will be placed where 1 originally was. 
 
 ### formal definition: insertion sort algorithm. 
 adding another deck of cards to pre-arranged deck of cards. start with one card, and place it in the right order. will always have sorted deck of cards. 
