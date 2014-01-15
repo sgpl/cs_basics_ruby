@@ -1,5 +1,5 @@
 # code for selection sort: 
-NUM_STUDENTS = 35
+NUM_STUDENTS = 10 #35
 MAX_GRADE = 100
 num_compare = 0 
 arr = Array.new(NUM_STUDENTS) # create array with 35 elements. 
