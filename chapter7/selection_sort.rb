@@ -1,5 +1,5 @@
 # code for selection sort: 
-NUM_STUDENTS = 10 #35
+NUM_STUDENTS = 6 #35
 MAX_GRADE = 100
 num_compare = 0 
 arr = Array.new(NUM_STUDENTS) # create array with 35 elements. 
@@ -32,6 +32,8 @@ for i in (0..NUM_STUDENTS-2)
 	temp = arr[i]
 	arr[i] = arr[min_pos]
 	arr[min_pos] = temp
+	p arr
+	sleep 10
 end
 
 puts "Sorted list: "
