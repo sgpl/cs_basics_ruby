@@ -30,3 +30,5 @@ adding another deck of cards to pre-arranged deck of cards. start with one card,
 Step 1: Consider only the first element, and thus, our list is sorted.
 Step 2: Consider the next element; insert that element into the proper position in the already-sorted list.
 Step 3: Repeat this process of adding one new number for all n numbers.
+
+- basically our list size is initially 1. then it is 2, and then it is 3....till it is finally n
